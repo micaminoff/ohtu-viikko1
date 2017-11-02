@@ -1,4 +1,2 @@
+[![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
 # ohtu-viikko1
-
-Tämä on travisiin liittyvä kokeilumuutos (tehtävä 9)
-Tämä on toinen yritys, lisäsin väärä repo travisiin :D
