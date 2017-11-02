@@ -122,7 +122,7 @@ public class VarastoTest {
     @Test
     public void ottaminenEiPoistaEnempaaKuinOn() {
         varasto.lisaaVarastoon(5);
-        varasto.otaVarastosta(6);
+        varasto.otaVarastosta(3);
         assertEquals(varasto.getSaldo(), 0, vertailuTarkkuus);
     }
     
