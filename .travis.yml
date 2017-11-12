@@ -1,7 +1,10 @@
 language: java
 
+before_install:
+  - cd ohtuvarasto
+
 script:
-  - ./ohtuvarasto/gradlew check
-  - ./ohtuvarasto/gradlew jacocoTestReport
+  - ./gradlew check
+  - ./gradlew jacocoTestReport
 after_success:
   - bash <(curl -s https://codecov.io/bash)
